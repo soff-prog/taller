@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/fullbaker.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<!--Barra de navegacion-->
+<nav class="bg-black text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7" alt="Motos Logo" />
+      <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">FullBiker</span>
+  </a>
+  <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" class="text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Get started</button>
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+      <li>
+        <a href="../index.html" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="/src/pages/sobreNosotros.html" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Sobre nosotros</a>
+      </li>
+      <li>
+        <a href="/src/pages/motos.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Motos</a>
+      </li>
+      <li>
+        <a href="/src/pages/accesorios.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Accesorios</a>
+      </li>
+      <li>
+        <a href="/src/pages/servicios.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Servicios</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<br><br>
+<!--Quienes somos-->
+<div class="w-full bg-white dark:bg-gray-900 py-8">
+  <div class="max-w-7xl mx-auto px-4">
+    
+    <div class="flex flex-col bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:flex-row">
+      <img 
+        src="https://i.postimg.cc/gJwDQ8L2/sobre_Nosotros1.jpg" 
+        alt="Quiénes Somos"
+        class="object-cover w-full h-64 md:h-auto md:w-1/2">
+      <div class="flex flex-col justify-center p-6 md:w-1/2">
+        <h2 class="mb-3 text-3xl font-bold text-gray-900 dark:text-white">
+          ¿Quiénes Somos?
+        </h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          FullBiker es una tienda dedicada principalmente a la venta de motos, ofreciendo a nuestros clientes variedad en marcas, modelos y estilos para cada necesidad. <br>
+          Además, contamos con una línea completa de accesorios y equipamiento, desde cascos y guantes hasta repuestos y mejoras para tu moto. <br>
+          <br>
+          También ofrecemos servicio técnico especializado, mantenimiento preventivo y reparaciones para que cada moto salga en óptimas condiciones. <br>
+          <br>
+          Nuestro compromiso es brindar una experiencia completa y confiable, acompañando a nuestros clientes antes, durante y después de su compra.
+            
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Mision, vision, valores, que hacemos-->
+<div class="w-full bg-white dark:bg-gray-900 py-10">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <!-- Misión -->
+    <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <h5 class="mb-3 flex items-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <svg class="w-6 h-6 mr-2 text-red-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"></path>
+          <circle cx="12" cy="12" r="10"></circle>
+        </svg>
+        Misión
+      </h5>
+      <p class="font-normal text-gray-700 dark:text-gray-400">
+        Facilitar el acceso a la movilidad ofreciendo motos y servicios de calidad, al mejor precio posible, potenciando la experiencia del motociclista con asesoría profesional, accesorios completos y soporte técnico.
+      </p>
+    </div>
+
+    <!-- Visión -->
+    <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <h5 class="mb-3 flex items-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <svg class="w-6 h-6 mr-2 text-blue-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18l9-4 9 4V3z"></path>
+        </svg>
+        Visión
+      </h5>
+      <p class="font-normal text-gray-700 dark:text-gray-400">
+        Ser una referencia en el mercado de motos, destacándonos por la calidad de nuestros productos, la confianza de nuestros clientes y una atención integral que abarque venta, accesorios y servicios.
+      </p>
+    </div>
+
+    <!-- Valores -->
+    <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <h5 class="mb-3 flex items-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <svg class="w-6 h-6 mr-2 text-yellow-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+          <circle cx="12" cy="12" r="10"></circle>
+        </svg>
+        Valores
+      </h5>
+      <p class="font-normal text-gray-700 dark:text-gray-400">
+        - Compromiso con cada cliente <br>
+        - Calidad en productos y servicio técnico <br>
+        - Seguridad en todos los procesos <br>
+        - Transparencia en información y precios <br>
+        - Pasión por el mundo de las motos
+      </p>
+    </div>
+
+    <!--Nuestro espíritu-->
+    <div class="block md:col-span-3 p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <h5 class="mb-3 flex items-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        </svg>
+        Nuestro espíritu
+      </h5>
+      <p class="font-normal text-gray-700 dark:text-gray-400">
+        En FullBiker creemos que una moto no es solo un medio de transporte, sino una forma de vivir con libertad, estilo y personalidad. Esa pasión nos mueve a ofrecer productos, servicios y asesoría que acompañen al motociclista en cada etapa de su camino.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+  <footer class="bg-black text-white p-4 text-center">
+    © 2026 FullBiker 🏍️ | Todos los derechos reservados
+  </footer>
+        <!--Enlace del main.js-->
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>

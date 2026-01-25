@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/fullbaker.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 <!--Barra de navegacion-->
-<nav class="bg-black text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
+<nav class="dark:bg-gray-900 text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7" alt="Motos Logo" />
       <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">FullBiker</span>
   </a>
   <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Get started</button>
+      <button type="button" class="inline-flex items-center text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">
+        <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+        </svg>Carrito
+      </button>
       <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
@@ -41,55 +46,225 @@
   </div>
   </div>
 </nav>
-<br>
-    <!-- Servicios Rápidos -->
-<section class="bg-white dark:bg-gray-900 py-12">
-  <div class="max-w-screen-xl mx-auto px-4">
-    <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white mb-10 text-center">
-      Servicios Rápidos
-    </h2>
+<!--Hero-->
+<section class="bg-slate-900">
+  <div class="grid lg:grid-cols-12 min-h-[300px] lg:h-[400px]">
+    <div class="lg:col-span-5 h-[200px] lg:h-full">
+      <img
+        src="https://i.postimg.cc/25dQRtK2/servicio-Hero.jpg"
+        alt="Servicio técnico profesional de motos"
+        class="w-full h-full object-cover"
+      >
+    </div>
+    <div class="flex flex-col justify-center px-6 py-8 lg:py-0 lg:px-12 lg:col-span-7">
+      <h1 class="mb-4 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-tight leading-tight text-white">
+        Servicios Profesionales para tu Moto
+      </h1>
+      <p class="max-w-xl font-light text-white text-base sm:text-lg lg:text-xl">
+        Mantenimiento, diagnóstico y personalización realizados por técnicos
+        especializados, garantizando seguridad, rendimiento y confianza en cada recorrido.
+      </p>
+    </div>
 
-    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm">
-        <div class="text-4xl mb-3">🛠️</div>
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Servicio Técnico</h3>
-        <p class="text-gray-600 dark:text-gray-300">Reparación y diagnóstico profesional para tu moto.</p>
+  </div>
+</section>
+    <!-- Card -->
+    <section class="bg-white py-16">
+  <div class="max-w-screen-xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-12 text-center">
+      Nuestros Servicios
+    </h2>
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+      <div class="block p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-100 text-red-700">
+          🛠️
+        </div>
+        <h5 class="mb-2 text-xl font-semibold text-gray-900">
+          Mantenimiento General
+        </h5>
+        <p class="text-gray-600 mb-6">
+          Revisión completa de motor, frenos, suspensión y sistemas esenciales.
+        </p>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-red-700 hover:underline">
+          Ver detalles
+        </a>
       </div>
-      
-      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm">
-        <div class="text-4xl mb-3">🧴</div>
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Mantenimiento Preventivo</h3>
-        <p class="text-gray-600 dark:text-gray-300">Ajustes, lubricación y control general del estado de la moto.</p>
+
+      <div class="block p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-100 text-red-700">
+          ⚙️
+        </div>
+        <h5 class="mb-2 text-xl font-semibold text-gray-900">
+          Diagnóstico Electrónico
+        </h5>
+        <p class="text-gray-600 mb-6">
+          Detección precisa de fallas mediante escáner especializado.
+        </p>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-red-700 hover:underline">
+          Ver detalles
+        </a>
       </div>
-      
-      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm">
-        <div class="text-4xl mb-3">🧩</div>
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Repuestos</h3>
-        <p class="text-gray-600 dark:text-gray-300">Accesorios y repuestos originales y alternativos.</p>
+
+      <div class="block p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-100 text-red-700">
+          🛞
+        </div>
+        <h5 class="mb-2 text-xl font-semibold text-gray-900">
+          Cambio de Llantas
+        </h5>
+        <p class="text-gray-600 mb-6">
+          Montaje, balanceo y alineación para máximo agarre y seguridad.
+        </p>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-red-700 hover:underline">
+          Ver detalles
+        </a>
       </div>
-      
-      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm">
-        <div class="text-4xl mb-3">🪛</div>
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Taller Mecánico</h3>
-        <p class="text-gray-600 dark:text-gray-300">Ajustes, frenado, suspensión y más.</p>
+
+      <div class="block p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-100 text-red-700">
+          🧼
+        </div>
+        <h5 class="mb-2 text-xl font-semibold text-gray-900">
+          Detailing Profesional
+        </h5>
+        <p class="text-gray-600 mb-6">
+          Limpieza profunda, pulido y protección estética de la moto.
+        </p>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-red-700 hover:underline">
+          Ver detalles
+        </a>
       </div>
-      
-      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm">
-        <div class="text-4xl mb-3">🧤</div>
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Accesorios</h3>
-        <p class="text-gray-600 dark:text-gray-300">Cascos, guantes, baúles, luces LED y más.</p>
+
+      <div class="block p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-100 text-red-700">
+          🔩
+        </div>
+        <h5 class="mb-2 text-xl font-semibold text-gray-900">
+          Instalación de Accesorios
+        </h5>
+        <p class="text-gray-600 mb-6">
+          Luces LED, escapes, soportes, protecciones y más.
+        </p>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-red-700 hover:underline">
+          Ver detalles
+        </a>
       </div>
-      
-      <div class="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm">
-        <div class="text-4xl mb-3">👕</div>
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Indumentaria</h3>
-        <p class="text-gray-600 dark:text-gray-300">Chaquetas, guantes, protectores, impermeables.</p>
+
+      <div class="block p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-100 text-red-700">
+          🧑‍🔧
+        </div>
+        <h5 class="mb-2 text-xl font-semibold text-gray-900">
+          Servicio Técnico Especializado
+        </h5>
+        <p class="text-gray-600 mb-6">
+          Reparaciones avanzadas realizadas por técnicos certificados.
+        </p>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-red-700 hover:underline">
+          Ver detalles
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Listas con card-->
+<section class="bg-slate-900 py-16">
+  <div class="max-w-screen-xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+      <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
+        <h2 class="mb-6 text-2xl font-semibold text-gray-900">
+          ¿Por qué elegir nuestro taller?
+        </h2>
+        <ul class="space-y-4 text-gray-700">
+          <li class="flex items-center">
+            <svg class="w-5 h-5 text-green-600 me-2 shrink-0"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+            </svg>
+            Técnicos certificados y especializados en motos
+          </li>
+          <li class="flex items-center">
+            <svg class="w-5 h-5 text-green-600 me-2 shrink-0"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+            </svg>
+            Repuestos originales y productos certificados
+          </li>
+          <li class="flex items-center">
+            <svg class="w-5 h-5 text-green-600 me-2 shrink-0"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+            </svg>
+            Garantía en todos nuestros servicios
+          </li>
+          <li class="flex items-center">
+            <svg class="w-5 h-5 text-green-600 me-2 shrink-0"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+            </svg>
+            Atención rápida y cumplimiento en tiempos
+          </li>
+          <li class="flex items-center">
+            <svg class="w-5 h-5 text-green-600 me-2 shrink-0"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+            </svg>
+            Precios claros y sin costos ocultos
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
+        <h2 class="mb-6 text-2xl font-semibold text-gray-900">
+          Nuestro Proceso de Servicio
+        </h2>
+        <ol class="relative border-l border-gray-300 ml-4 space-y-8">
+          <li class="ml-6">
+            <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-red-700 rounded-full text-white">1</span>
+            <h3 class="font-semibold text-gray-900">Recepción de la moto</h3>
+            <p class="text-gray-600">Revisamos el estado general y escuchamos tus requerimientos.</p>
+          </li>
+          <li class="ml-6">
+            <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-red-700 rounded-full text-white">2</span>
+            <h3 class="font-semibold text-gray-900">Diagnóstico</h3>
+            <p class="text-gray-600">Evaluación técnica detallada con herramientas especializadas.</p>
+          </li>
+          <li class="ml-6">
+            <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-red-700 rounded-full text-white">3</span>
+            <h3 class="font-semibold text-gray-900">Presupuesto</h3>
+            <p class="text-gray-600">Te informamos costos y tiempos antes de realizar el trabajo.</p>
+          </li>
+          <li class="ml-6">
+            <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-red-700 rounded-full text-white">4</span>
+            <h3 class="font-semibold text-gray-900">Reparación</h3>
+            <p class="text-gray-600">Ejecutamos el servicio con repuestos y procesos certificados.</p>
+          </li>
+          <li class="ml-6">
+            <span class="absolute -left-4 flex items-center justify-center w-8 h-8 bg-red-700 rounded-full text-white">5</span>
+            <h3 class="font-semibold text-gray-900">Entrega</h3>
+            <p class="text-gray-600">Entregamos tu moto lista y en óptimas condiciones.</p>
+          </li>
+        </ol>
       </div>
     </div>
   </div>
 </section>
 
 
+<!-- Footer -->
+  <footer class="bg-black text-white p-4 text-center">
+    © 2026 FullBiker 🏍️ | Todos los derechos reservados
+  </footer>
+  
     <!--Enlace del main.js-->
     <script type="module" src="/src/js/main.js"></script>
 </body>

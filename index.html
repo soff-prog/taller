@@ -8,15 +8,18 @@
   </head>
   <body>
     <!--Barra de navegacion-->
-<nav class="bg-black text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
+<nav class="dark:bg-gray-900 text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7" alt="Motos Logo" />
       <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">FullBiker</span>
   </a>
   <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Get started</button>
-      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+      <button type="button" class="inline-flex items-center text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">
+        <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+        </svg>Carrito
+      </button>      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
     </button>
@@ -43,27 +46,37 @@
   </div>
 </nav>
 <!--Hero-->
-<section class="bg-white dark:bg-white">
-  <div class="grid max-w-screen-xl px-4 md:px-6 lg:px-8 py-8 mx-auto gap-8 md:gap-12 lg:gap-0 lg:py-16 lg:grid-cols-12">
-      <div class="order-2 lg:order-1 mr-auto place-self-center lg:col-span-7 text-center lg:text-left">
+<section class="bg-white">
+  <div class="grid w-full grid-cols-1 lg:grid-cols-12 gap-0">
+
+      <div class="order-2 lg:order-1 mr-auto place-self-center lg:col-span-7 
+                  text-center lg:text-left
+                  pl-10 md:pl-16 lg:pl-24">
           <h1 class="max-w-2xl mb-4 font-extrabold tracking-tight leading-none 
-              text-3xl sm:text-4xl md:text-5xl xl:text-6xl dark:text-gray-900">
-              Rendimiento y estilo sobre la pista
+              text-3xl sm:text-4xl md:text-5xl xl:text-6xl text-gray-900">
+              <br>Rendimiento y estilo sobre la pista
           </h1>
-          <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 
-              text-sm sm:text-base md:text-lg lg:text-xl dark:text-gray-700">
+          <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 
+              text-sm sm:text-base md:text-lg lg:text-xl">
               Motos Racing y Premium con calidad certificada, repuestos y accesorios para verdaderos bikers.
           </p>
           <a href="#"
-             class="inline-flex items-center justify-center px-5 py-3 mr-0 md:mr-3 text-base font-medium text-center text-zinc-900 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+             class="inline-flex items-center justify-center px-5 py-3 text-base font-medium 
+                    text-zinc-900 rounded-lg bg-primary-700 hover:bg-primary-800 
+                    focus:ring-4 focus:ring-primary-300">
           </a>
       </div>
-      <div class="order-1 lg:order-2 flex justify-center lg:mt-0 lg:col-span-5">
-          <img src="https://i.postimg.cc/yxDsyPVf/moto-Hero.png" alt="Yamaha R6"
-               class="w-64 sm:w-80 md:w-96 lg:w-full object-contain">
+
+      <div class="order-1 lg:order-2 flex lg:mt-0 lg:col-span-5 p-0">
+          <video class="w-full h-full object-cover" autoplay loop muted playsinline>
+              <source src="public/videos/WhatsApp Video 2026-01-24 at 20.26.58.mp4" type="video/mp4">
+              Tu navegador no soporta la etiqueta de video.
+          </video>
       </div>
+
   </div>
 </section>
+
 <!--Tarjetas-->
 <section class="py-16 bg-white dark:bg-gray-900">
   <div class="max-w-screen-xl mx-auto px-4">
@@ -204,42 +217,67 @@
 <!--Footer o pie de pagina-->
 <footer class="dark:bg-gray-900 text-gray-300">
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-    <div class="md:flex md:justify-between">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
 
-      <div class="mb-6 md:mb-0">
-        <a href="/" class="flex items-center">
-          <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7 mr-3" alt="FullBiker Logo" />
-          <span class="text-white self-center text-2xl font-semibold whitespace-nowrap">FullBiker</span>
-        </a>
-      </div>
+  <!-- Logo -->
+  <div>
+    <a href="/" class="flex items-center mb-4">
+      <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7 mr-3" alt="FullBiker Logo" />
+      <span class="text-white text-2xl font-semibold">FullBiker</span>
+    </a>
+    <p class="text-gray-400 text-sm">
+      Pasión por las motos, seguridad y rendimiento en cada camino.
+    </p>
+  </div>
 
-      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-        <div>
-          <h2 class="mb-6 text-sm font-semibold text-white uppercase">Nosotros</h2>
-          <ul class="text-gray-400 font-medium space-y-2">
-            <li><a href="/src/pages/sobreNosotros.html" class="hover:underline">Sobre FullBiker</a></li>
-            <li><a href="/contacto" class="hover:underline">Contacto</a></li>
-          </ul>
-        </div>
+  <!-- Nosotros -->
+  <div>
+    <h2 class="mb-4 text-sm font-semibold text-white uppercase">Nosotros</h2>
+    <ul class="text-gray-400 space-y-2 text-sm">
+      <li><a href="/src/pages/sobreNosotros.html" class="hover:underline">Sobre FullBiker</a></li>
+      <li><a href="/contacto" class="hover:underline">Contacto</a></li>
+    </ul>
+  </div>
 
-        <div>
-          <h2 class="mb-6 text-sm font-semibold text-white uppercase">Productos</h2>
-          <ul class="text-gray-400 font-medium space-y-2">
-            <li><a href="/src/pages/motos.html" class="hover:underline">Motos</a></li>
-            <li><a href="/src/pages/accesorios.html" class="hover:underline">Accesorios</a></li>
-          </ul>
-        </div>
+  <!-- Productos -->
+  <div>
+    <h2 class="mb-4 text-sm font-semibold text-white uppercase">Productos</h2>
+    <ul class="text-gray-400 space-y-2 text-sm">
+      <li><a href="/src/pages/motos.html" class="hover:underline">Motos</a></li>
+      <li><a href="/src/pages/accesorios.html" class="hover:underline">Accesorios</a></li>
+    </ul>
+  </div>
 
-        <div>
-          <h2 class="mb-6 text-sm font-semibold text-white uppercase">Servicios</h2>
-          <ul class="text-gray-400 font-medium space-y-2">
-            <li><a href="/servicio" class="hover:underline">Taller Técnico</a></li>
-            <li><a href="/detailing" class="hover:underline">Detailing</a></li>
-          </ul>
-        </div>
+  <!--Datos-->
+  <div>
+    <h2 class="mb-4 text-sm font-semibold text-white uppercase">
+      Únete a FullBiker
+    </h2>
+    <p class="text-gray-400 text-sm mb-4">
+      Sé el primero en conocer promociones, nuevos productos y eventos.
+    </p>
+    <form class="space-y-3">
+      <input
+        type="email"
+        placeholder="Correo electrónico"
+        class="w-full rounded-md bg-gray-800 border border-gray-700 px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-700"
+      />
+      <input
+        type="text"
+        placeholder="Nombre"
+        class="w-full rounded-md bg-gray-800 border border-gray-700 px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-700"
+      />
+      <button
+        type="submit"
+        class="w-full rounded-md bg-red-800 py-2 text-sm font-semibold text-white hover:bg-red-900 transition"
+      >
+        Suscribirse
+      </button>
+    </form>
+  </div>
 
-      </div>
-    </div>
+</div>
+
 
     <hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
 

@@ -8,16 +8,18 @@
 </head>
 <body>
     <!--Barra de navegacion-->
-<!--Barra de navegacion-->
-<nav class="bg-black text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
+<nav class="dark:bg-gray-900 text-white  border-b border-neutral-800">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7" alt="Motos Logo" />
       <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">FullBiker</span>
   </a>
   <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Get started</button>
-      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+      <button type="button" class="inline-flex items-center text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">
+        <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+        </svg>Carrito
+      </button>      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
     </button>
@@ -43,6 +45,217 @@
   </div>
   </div>
 </nav>
+
+<!--Inicio de pagina-->
+<section class="bg-white py-14">
+  <div class="max-w-screen-xl mx-auto px-4 text-center">
+
+    <h2 class="text-4xl font-bold text-gray-900 tracking-tight">
+      Equipa tu moto con lo mejor
+    </h2>
+
+    <p class="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
+      Seguridad, rendimiento y estilo en cada kilómetro.
+      Accesorios seleccionados para verdaderos motociclistas.
+    </p>
+
+  </div>
+</section>
+
+
+<!--Card para accesorios-->
+<section class="bg-slate-900 py-16">
+  <div class="max-w-screen-xl mx-auto px-4">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+      <!--Casco-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/ZqsQ3CTS/casco.webp" alt="Casco integral"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Casco Integral</h3>
+        <p class="text-sm text-gray-600 mt-1">Protección total y seguridad certificada</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $29.99</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--chaqueta-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/P5pTPsb5/chaqueta_protectora.jpg" alt="Chaqueta protectora"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Protectora</h3>
+        <p class="text-sm text-gray-600 mt-1">Protecciones en hombros, codos y espalda</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $60.00</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--guantes-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/52Yb6d50/guantes_reforzados.webp" alt="Guantes"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Guantes Reforzados</h3>
+        <p class="text-sm text-gray-600 mt-1">Refuerzo en nudillos y máximo agarre</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $21.30</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--botas-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/2SbrVRdV/botas_Touring.png" alt="Botas"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Botas Touring</h3>
+        <p class="text-sm text-gray-600 mt-1">Protección de tobillo y suela antideslizante</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $27.50</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--pantalones-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/XqYXPHRZ/pantalon.jpg" alt="Pantalón protector"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Pantalón con Protecciones</h3>
+        <p class="text-sm text-gray-600 mt-1">Protección en rodillas y cadera</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $50.00</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--chaqueta airbag-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/4x7smkvf/Chaqueta_Airbag.png" alt="Chaqueta airbag"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Airbag</h3>
+        <p class="text-sm text-gray-600 mt-1">Inflado automático en caso de accidente</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $299.99</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--baul-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/jdkRxdfn/Baúl_Trasero.webp" alt="Baúl"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Baúl Trasero</h3>
+        <p class="text-sm text-gray-600 mt-1">Almacenamiento seguro para viajes</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $53.99</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--soporte del telefono-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/651BW5Z2/Soporte_para_Celular.png" alt="Soporte celular"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Soporte para Celular</h3>
+        <p class="text-sm text-gray-600 mt-1">Navegación segura sin soltar el manillar</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $24.99</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+
+      <!--luces led-->
+      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+        <img src="https://i.postimg.cc/ncwnFcmX/Luces_LED_Auxiliares.webp" alt="Luces LED"
+             class="mx-auto mb-6 rounded-xl h-44 object-contain">
+        <h3 class="text-xl font-semibold text-gray-900">Luces LED Auxiliares</h3>
+        <p class="text-sm text-gray-600 mt-1">Mayor visibilidad nocturna y en lluvia</p>
+        <p class="text-sm text-gray-500 mt-2">Desde $59.99</p>
+        <div class="mt-6">
+          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+        </div>
+      </div>
+      <!--escape de moto-->
+<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+  <img src="https://i.postimg.cc/vHSGYHn1/Escape_Deportivo.webp" alt="Escape deportivo"
+       class="mx-auto mb-6 rounded-xl h-44 object-contain">
+  <h3 class="text-xl font-semibold text-gray-900">Escape Deportivo</h3>
+  <p class="text-sm text-gray-600 mt-1">Potencia mejorada y sonido más agresivo</p>
+  <p class="text-sm text-gray-500 mt-2">Desde $45.00</p>
+  <div class="mt-6">
+    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+  </div>
+</div>
+
+<!-- Intercomunicadores Bluetooth -->
+<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+  <img src="https://i.postimg.cc/VLHzfLt5/Intercomunicadores_Bluetooth.webp" alt="Intercomunicadores Bluetooth"
+       class="mx-auto mb-6 rounded-xl h-44 object-contain">
+  <h3 class="text-xl font-semibold text-gray-900">Intercomunicadores Bluetooth</h3>
+  <p class="text-sm text-gray-600 mt-1">Comunicación manos libres y música en ruta</p>
+  <p class="text-sm text-gray-500 mt-2">Desde $18.99</p>
+  <div class="mt-6">
+    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+  </div>
+</div>
+
+<!-- Antirrobo / Candado para disco -->
+<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+  <img src="https://i.postimg.cc/MpMqv20Z/Candado_para_Disco.webp" alt="Antirrobo / Candado para disco"
+       class="mx-auto mb-6 rounded-xl h-44 object-contain">
+  <h3 class="text-xl font-semibold text-gray-900">Candado para Disco</h3>
+  <p class="text-sm text-gray-600 mt-1">Fija tu moto y dificulta robos</p>
+  <p class="text-sm text-gray-500 mt-2">Desde $25.00</p>
+  <div class="mt-6">
+    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+  </div>
+</div>
+
+<!-- GPS / Localizador -->
+<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+  <img src="https://i.postimg.cc/zBPxLMFT/GPS_Localizador.png" alt="GPS / Localizador"
+       class="mx-auto mb-6 rounded-xl h-44 object-contain">
+  <h3 class="text-xl font-semibold text-gray-900">GPS / Localizador</h3>
+  <p class="text-sm text-gray-600 mt-1">Localiza tu moto en tiempo real</p>
+  <p class="text-sm text-gray-500 mt-2">Desde $49.99</p>
+  <div class="mt-6">
+    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+  </div>
+</div>
+
+<!-- Reflectores para moto -->
+<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+  <img src="https://i.postimg.cc/mD6mcqy3/Reflectores_y_Tiras_Reflectantes.webp" alt="Reflectores para moto"
+       class="mx-auto mb-6 rounded-xl h-44 object-contain">
+  <h3 class="text-xl font-semibold text-gray-900">Tiras Reflectivas</h3>
+  <p class="text-sm text-gray-600 mt-1">Más visibilidad para seguridad nocturna</p>
+  <p class="text-sm text-gray-500 mt-2">Desde $9.99</p>
+  <div class="mt-6">
+    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+  </div>
+</div>
+
+<!-- Mini Camatas -->
+<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+  <img src="https://i.postimg.cc/85nZF3mB/Mini_Camaras.png" alt="Nini Camaras"
+       class="mx-auto mb-6 rounded-xl h-44 object-contain">
+  <h3 class="text-xl font-semibold text-gray-900">Mini Cámara</h3>
+  <p class="text-sm text-gray-600 mt-1">Graba cada experiencia y momento que pases con tu moto</p>
+  <p class="text-sm text-gray-500 mt-2">Desde $12.99</p>
+  <div class="mt-6">
+    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+  <footer class="bg-black text-white p-4 text-center">
+    © 2026 FullBiker 🏍️ | Todos los derechos reservados
+  </footer>
 
     <!--Enlace del main.js-->
     <script type="module" src="/src/js/main.js"></script>

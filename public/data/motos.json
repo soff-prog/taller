@@ -1,0 +1,243 @@
+[
+    {
+        "imagen": "https://i.postimg.cc/c4y1RL1m/BMW_M_1000_RR_(2025).avif",
+        "nombre": "BMW M 1000 RR (2025)",
+        "precio": "$33,000",
+        "motor" : "999 cc, 4 cilindros en línea",
+        "potencia": "212 HP",
+        "Especificaciones": "Electrónica de competición, aerodinámica con alerones, frenos de alta gama y modos avanzados"
+    },
+    {
+        "imagen": "https://i.postimg.cc/SNFQ6xQd/BMW_S_1000_RR.avif",
+        "nombre": "BMW S 1000 RR (2025)",
+        "precio": "$30,000",
+        "motor" : "999 cc, 4 cilindros",
+        "potencia": "210 HP",
+        "Especificaciones": "Especificaciones: superBiker enfocada en pistas y carreteras"
+    },
+    {
+        "imagen": "https://i.postimg.cc/zXZDCGDk/BMW_F_900_XR.webp",
+        "nombre": "BMW F 900 XR (2025)",
+        "precio": "$15,000",
+        "motor" : "Motor: 895 cc bicilíndrico",
+        "potencia": "105 HP",
+        "Especificaciones": "Deportiva-turismo ideal para curvas y viajes largos"
+    },
+    { 
+        "imagen": "https://i.postimg.cc/SNFQ6xQf/Ducati_Panigale_V4_SP2.webp",
+        "nombre": "Ducati Panigale V4 SP2 (2025)",
+        "precio": "$43,000",
+        "motor" : "1103 cc V",
+        "potencia": "214–216 HP",
+        "Especificaciones": "Superbike con tecnología MotoGP y aerodinámica avanzada"
+    },
+    {
+        "imagen": "https://i.postimg.cc/X7SNfYNK/Ducati_Panigale_V2.png",
+        "nombre": "Ducati Panigale V2 (2025)",
+        "precio": "$18,995",
+        "motor" : "890 cc V-twin",
+        "potencia": "120 HP",
+        "Especificaciones": "Deportiva ligera con electrónica moderna"
+    },
+    {
+        "imagen": "https://i.postimg.cc/ncbV4hVY/Ducati_Panigale_V4.pngg",
+        "nombre": "Ducati Panigale V4 (2025)",
+        "precio": "$35,000",
+        "motor" : "998 cc V4",
+        "potencia": "216 HP",
+        "Especificaciones": "Superbike con electrónica y aerodinámica de alto nivel"
+    },
+    {
+        "imagen": "https://i.postimg.cc/fTnWcRWx/Yamaha_YZF_R1M.webp",
+        "nombre": "Yamaha YZF-R1M (2025)",
+        "precio": "$29,999",
+        "motor" : "998 cc, 4 cilindros en línea",
+        "potencia": "200 HP (Caballos de fuerza)",
+        "Especificaciones": "Suspensión electrónica Öhlins, IMU de 6 ejes"
+    },
+    {
+        "imagen": "https://i.postimg.cc/28RjQSjQ/Yamaha_R6.webp",
+        "nombre": "Yahmaha R6 (2025)",
+        "precio": "$15,000",
+        "motor" : "599cc, 4 cilindros",
+        "potencia": "18-124 CV (Caballos de Vapor)<",
+        "Especificaciones": "Superbike de alto rendimiento"
+    },
+    {
+        "imagen": "https://i.postimg.cc/WbLpG1pk/Yamaha_YZF_R9_(2025).avif",
+        "nombre": "Yamaha YZF-R9 (2025)",
+        "precio": "$13,999",
+        "motor" : "890 cc triple<",
+        "potencia": "119 HP",
+        "Especificaciones": "Deportiva media ideal para calle y circuitoo"
+    },
+    {
+        "imagen": "https://i.postimg.cc/jd0qHSqN/Kawasaki_Ninja_ZX_10R_(2025).png",
+        "nombre": "Kawasaki Ninja ZX-10R (2025",
+        "precio": "$18,799",
+        "motor" : " 998 cc, 4 cilindros",
+        "potencia": "~203 CV",
+        "Especificaciones": "Superbike con frenos Brembo"
+    },
+    {
+        "imagen": "https://i.postimg.cc/sDdfYgf5/Kawasaki_Ninja_ZX_10RR_(2025).png",
+        "nombre": "Kawasaki Ninja ZX-10RR (2025)",
+        "precio": "$30,000",
+        "motor" : "998 cc de carreras",
+        "potencia": "204–210 HP",
+        "Especificaciones": "Versión enfocada a pista"
+    },
+    {
+        "imagen": "https://i.postimg.cc/tCQR34RW/Kawasaki_Ninja_ZX_4RR_(2025).png",
+        "nombre": "Kawasaki Ninja ZX-4RR (2025)",
+        "precio": "$13,999",
+        "motor" : "399 cc",
+        "potencia": "57–60 HP",
+        "Especificaciones": "Deportiva ligera con asistencia moderna"
+    },
+    {
+        "imagen": "https://i.postimg.cc/VvywWKwr/Honda_CBR1000RR_R_Fireblade_SP_(2025.png)",
+        "nombre": "Honda CBR1000RR-R Fireblade SP (2025))",
+        "precio": "$30,000",
+        "motor" : "999 cc, 4 cilindros",
+        "potencia": "~218 CV",
+        "Especificaciones": "Superbike avanzada con electrónica premium"
+    },
+    {
+        "imagen": "https://i.postimg.cc/QCLDJfDB/Honda_CBR600RR_(2025).png",
+        "nombre": "Honda CBR600RR (2025)",
+        "precio": "$13,000",
+        "motor" : "599 cc",
+        "potencia": "~119 HP",
+        "Especificaciones": "Deportiva media clásica para pista y calle"
+    },
+    {
+        "imagen": "https://i.postimg.cc/J0w85p8s/Honda_CBR650R_(2025).webp",
+        "nombre": "Honda CBR650R (2025)",
+        "precio": "$11,000",
+        "motor" : "649 cc",
+        "potencia": "~94 HP",
+        "Especificaciones": "Deportiva asequible y versátil"
+    },
+    {
+        "imagen": "https://i.postimg.cc/KvK1D8Mq/bmw_r_1300_gs_adventure_(2025).png",
+        "nombre": "BMW R 1300 GS Adventure (2025)",
+        "precio": "$18,895",
+        "motor" : "1300 cc boxer",
+        "potencia": "~145 HP",
+        "Especificaciones": "EABS Pro, modos conducción, cruise, TFT avanzado"
+    },
+    {
+        "imagen": "https://i.postimg.cc/9F4DYQ7g/BMW_F_800_GS_(2025).webp",
+        "nombre": "BMW F 800 GS (2025)",
+        "precio": "$12,000",
+        "motor" : "800 cc bicilíndrico",
+        "potencia": "~85–90 HP",
+        "Especificaciones": "Trail media versátil para ruta y tierra ligera"
+    },
+    {
+        "imagen": "https://i.postimg.cc/VLSJWkCh/BMW_F_450_GS_(2025).avif",
+        "nombre": "BMW F 450 GS (2025)",
+        "precio": "$8,000",
+        "motor" : "420 cc twin",
+        "potencia": "47 HP",
+        "Especificaciones": "Dual-sport ligera para aventuras y rutas largas"
+    },
+    {
+        "imagen": "https://i.postimg.cc/sxT5Q6bD/Ducati_Multistrada_V2_(2025).png",
+        "nombre": "Ducati Multistrada V2 (2025)",
+        "precio": "$15,995",
+        "motor" : "990 cc V-twin",
+        "potencia": "115 HP",
+        "Especificaciones": "Modos de conducción, versátil para viaje y ligera tierra"
+    },
+    {
+        "imagen": "https://i.postimg.cc/prsKhG3d/Ducati_Multistrada_V4_(2025).png",
+        "nombre": "Ducati Multistrada V4 (2025)",
+        "precio": "$22,000",
+        "motor" : "1158 cc V4",
+        "potencia": "170 HP",
+        "Especificaciones": "Alta tecnología y confort touring + aventura"
+    },
+    {
+        "imagen": "https://i.postimg.cc/yxL0gQ28/Ducati_Desert_X_(2025).png",
+        "nombre": "Ducati DesertX (2025)",
+        "precio": "$20,000",
+        "motor" : "937 cc",
+        "potencia": "110 HP",
+        "Especificaciones": "Aventura off-road ligera con enfoque riguroso"
+    },
+    {
+        "imagen": "https://i.postimg.cc/hvmqh6JB/Yamaha_XT1200Z_Super_Ténéré.webp",
+        "nombre": "Yamaha XT1200Z Super Ténéré",
+        "precio": "$18,000",
+        "motor" : "1199 cc",
+        "potencia": "112 HP",
+        "Especificaciones": "Confort para larga distancia y off-road ligero"
+    },
+    {
+        "imagen": "https://i.postimg.cc/Xq50XmZW/Yamaha_Ténéré_700_(2025).webp",
+        "nombre": "Yamaha Ténéré 700 (2025)",
+        "precio": "$10,999",
+        "motor" : "689 cc",
+        "potencia": "72 HP",
+        "Especificaciones": "Aventura equilibrada, excelentes suspensiones"
+    },
+    {
+        "imagen": "https://i.postimg.cc/qqKdgStd/Yamaha_XTZ700_(Dual_Sport).png",
+        "nombre": "Yamaha XTZ700 (Dual-Sport)",
+        "precio": "$9,000",
+        "motor" : "689 cc",
+        "potencia": "72 HP",
+        "Especificaciones": "Versátil para ruta y caminos rurales"
+    },
+    {
+        "imagen": "https://i.postimg.cc/ZnQhqZYJ/Kawasaki_Versys_1000.png",
+        "nombre": "Kawasaki Versys 1000)",
+        "precio": "$14,000",
+        "motor" : "1043 cc, 4 cilindros",
+        "potencia": "~120 HP",
+        "Especificaciones": "Ideal ruta larga con ligera capacidad off-road"
+    },
+    {
+        "imagen": "https://i.postimg.cc/WzzvjtVd/Kawasaki_KLX300_(Dual_Sport).png",
+        "nombre": "Kawasaki KLX300 (Dual-Sport)",
+        "precio": "$6,000",
+        "motor" : "292 cc",
+        "potencia": "~30 HP",
+        "Especificaciones": "Trail ligera, fácil manejo"
+    },
+    {
+        "imagen": "https://i.postimg.cc/8cYVCDkD/Kawasaki_KLR650_(Adventure).png",
+        "nombre": "Kawasaki KLR650 (Adventure)",
+        "precio": "$7,500",
+        "motor" : "652 cc",
+        "potencia": "~40–45 HP",
+        "Especificaciones": "Aventura clásica robusta"
+    },
+    {
+        "imagen": "https://i.postimg.cc/RhdNpWTP/Honda_Africa_Twin_CRF1100L.png",
+        "nombre": "Honda Africa Twin CRF1100L",
+        "precio": "$17,000",
+        "motor" : "1084 cc twin",
+        "potencia": "~100 HP",
+        "Especificaciones": "Trail touring serio, electrónicas avanzadas"
+    },
+    {
+        "imagen": "https://i.postimg.cc/D0nScr1t/Honda_Transalp_XL750.webp",
+        "nombre": "Honda Transalp XL750",
+        "precio": "$12,000",
+        "motor" : "755 cc",
+        "potencia": "~90 HP",
+        "Especificaciones": "Trail versátil para ruta y tierra"
+    },
+    {
+        "imagen": "https://i.postimg.cc/GtKHg4jq/Honda_CRF300_Rally_(Dual_Sport).avif",
+        "nombre": "Honda CRF300 Rally (Dual-Sport)",
+        "precio": "$7,000",
+        "motor" : " 286 cc",
+        "potencia": "~28–30 HP",
+        "Especificaciones": "Dual ligera y eficiente"
+    }
+
+]

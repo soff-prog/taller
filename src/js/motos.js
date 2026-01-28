@@ -32,3 +32,4 @@ botonesComprar.forEach(btn => {
     alert(`${nombreMoto} agregado al carrito`);
     });
 });
+

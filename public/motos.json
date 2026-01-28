@@ -1,0 +1,26 @@
+[
+    {
+        "imagen": "https://i.postimg.cc/c4y1RL1m/BMW_M_1000_RR_(2025).avif",
+        "nombre": "BMW M 1000 RR (2025)",
+        "precio": "$33,00",
+        "motor" : "999 cc, 4 cilindros en línea",
+        "potencia": "212 HP",
+        "Especificaciones": "Electrónica de competición, aerodinámica con alerones, frenos de alta gama y modos avanzados"
+    },
+    {
+        "imagen": "https://i.postimg.cc/c4y1RL1m/BMW_M_1000_RR_(2025).avif",
+        "nombre": "BMW M 1000 RR (2025)",
+        "precio": "$33,00",
+        "motor" : "999 cc, 4 cilindros en línea",
+        "potencia": "212 HP",
+        "Especificaciones": "Electrónica de competición, aerodinámica con alerones, frenos de alta gama y modos avanzados"
+    },
+    {
+        "imagen": "https://i.postimg.cc/c4y1RL1m/BMW_M_1000_RR_(2025).avif",
+        "nombre": "BMW M 1000 RR (2025)",
+        "precio": "$33,00",
+        "motor" : "999 cc, 4 cilindros en línea",
+        "potencia": "212 HP",
+        "Especificaciones": "Electrónica de competición, aerodinámica con alerones, frenos de alta gama y modos avanzados"
+    }
+]

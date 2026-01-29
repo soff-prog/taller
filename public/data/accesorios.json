@@ -3,271 +3,271 @@
         "imagen": "https://i.postimg.cc/TYW8sGPj/Casco_HJC.webp",
         "nombre": "Casco HJC",
         "Especificaciones": "Cascos integrales y modulares con buena ventilación y certificación ECE/DOT",
-        "precio": "$150,00"
+        "precio": 150
     },
     {
         "imagen": "https://i.postimg.cc/WpZLWTzt/casco-AGV.webp",
         "nombre": "Casco AGV",
         "Especificaciones": "Marca italiana, muy usada en competición, diseño aerodinámico y alta seguridad.",
-        "precio": "$250,00"
+        "precio": 250
     },
     {
         "imagen": "https://i.postimg.cc/Ghs0frpF/Casco_Bell.webp",
         "nombre": "Casco Bell",
         "Especificaciones": "Marca estadounidense con modelos urbanos, touring y adventure.",
-        "precio": "$180,00"
+        "precio": 180
     },
     {
         "imagen": "https://i.postimg.cc/zGBxQF7F/Chaqueta_Alpinestars.webp",
         "nombre": "Chaqueta Alpinestars",
         "Especificaciones": "Chaquetas textiles y de cuero con protecciones CE y excelente ventilación.",
-        "precio": "$280,00"
+        "precio": 280
     },
     {
         "imagen": "https://i.postimg.cc/qvR1Fxws/Chaqueta_REV_IT.webp",
         "nombre": "Chaqueta REVIT!",
         "Especificaciones": "Chaquetas técnicas para touring y clima variable, muy resistentes.",
-        "precio": "$300,00"
+        "precio": 300
     },
     {
         "imagen": "https://i.postimg.cc/4xdW0QPz/Chaqueta_Dainese.webp",
         "nombre": "Chaqueta Dainese",
         "Especificaciones": "Diseño premium, protección avanzada y materiales de alta calidad.",
-        "precio": "$320,00"
+        "precio": 320
     },
     {
         "imagen": "https://i.postimg.cc/dVyyD7VY/Guantes_Alpinestars.webp",
         "nombre": "Guantes Alpinestars",
         "Especificaciones": "Guantes con nudillos rígidos, refuerzos y buena ergonomía",
-        "precio": "$70.00"
+        "precio": 70
     },
     {
         "imagen": "https://i.postimg.cc/kgbbDVgr/Guantes_Five_Gloves.png",
         "nombre": "Guantes Five Gloves",
         "Especificaciones": "Especialistas en guantes con gran protección y sensibilidad.",
-        "precio": "$8,00"
+        "precio": 8
     },
     {
         "imagen": "https://i.postimg.cc/qv33gtvd/Guantes_Dainese.webp",
         "nombre": "Guantes Dainese",
         "Especificaciones": "Guantes deportivos y touring con protecciones CE.",
-        "precio": "$90,00"
+        "precio": 90
     },
     {
         "imagen": "https://i.postimg.cc/q7QM70nW/Botas_Touring_TCX.webp",
         "nombre": "Botas Touring TCX",
         "Especificaciones": "Botas impermeables, cómodas para viajes largos.",
-        "precio": "$180,00"
+        "precio": 180
     },
     {
         "imagen": "https://i.postimg.cc/FKGsKmcn/Botas_Touring_Forma.webp",
         "nombre": "Botas Touring Forma",
         "Especificaciones": "Excelente relación calidad-precio, muy usadas en touring.",
-        "precio": "$180,00"
+        "precio": 180
     },
     {
         "imagen": "https://i.postimg.cc/jjvdjKNm/Botas_Touring_Alpinestars.webp",
         "nombre": "Botas Touring Alpinestars",
         "Especificaciones": "Botas seguras, resistentes y con protecciones certificadas.",
-        "precio": "$200,00"
+        "precio": 200
     },
     {
         "imagen": "https://i.postimg.cc/g0wmGRzn/Pantalón_REV_IT.webp",
         "nombre": "Pantalón REV’IT!",
         "Especificaciones": "Pantalones textiles y touring con protecciones CE.",
-        "precio": "$250,00"
+        "precio": 250
     },
     {
         "imagen": "https://i.postimg.cc/g0wmGRzx/Pantalón_Alpinestars.avif",
         "nombre": "Pantalón Alpinestars",
         "Especificaciones": "Modelos urbanos y adventure con refuerzos en rodillas y cadera.",
-        "precio": "$220,00"
+        "precio": 220
     },
     {
         "imagen": "https://i.postimg.cc/hGJcKxDv/Pantalón_Dainese.webp",
         "nombre": "Pantalón Dainese",
         "Especificaciones": "Pantalones premium con alto nivel de confort y seguridad.",
-        "precio": "$260,00"
+        "precio": 260
     },
     {
         "imagen": "https://i.postimg.cc/qBDw334Q/chaqueta_dainese_(d_air).webp",
         "nombre": "Chaqueta Dainese (D-Air)",
         "Especificaciones": "Sistema electrónico de airbag integrado para máxima protección.",
-        "precio": "$800,00"
+        "precio": 800
     },
     {
         "imagen": "https://i.postimg.cc/Dfp6XXnx/Chaqueta_Alpinestars_(Tech_Air).webp",
         "nombre": "Chaqueta Alpinestars (Tech-Air)",
         "Especificaciones": "Airbag inteligente, muy usado en carretera y pista.",
-        "precio": "$700,00"
+        "precio": 700
     },
     {
         "imagen": "https://i.postimg.cc/SQ1dMMk7/Chaqueta_Helite.jpg",
         "nombre": "Chaqueta Helite",
         "Especificaciones": "Chaquetas airbag mecánicas, activación por cable.",
-        "precio": "$600,00"
+        "precio": 600
     },
     {
         "imagen": "https://i.postimg.cc/Qxs7VNWx/Baúl_Trasero_Givi.webp",
         "nombre": "Baúl Trasero Givi",
         "Especificaciones": "Baúles resistentes, con sistema de cierre seguro.",
-        "precio": "$120.00"
+        "precio": 120
     },
     {
         "imagen": "https://i.postimg.cc/L6RPh4Z8/Baúl_Trasero_Shad.png",
         "nombre": "Baúl Trasero Shad",
         "Especificaciones": "Diseño moderno y buena capacidad de carga.",
-        "precio": "$110,00"
+        "precio": 110
     },
     {
         "imagen": "https://i.postimg.cc/YqkFj2m9/Baúl_Trasero_Kappa.png",
         "nombre": "Baúl Trasero Kappa",
         "Especificaciones": "Excelente alternativa económica con buena calidad.",
-        "precio": "$100,00"
+        "precio": 100
     },
     {
         "imagen": "https://i.postimg.cc/q7dHHFFv/Soporte_para_Celular_Quad_Lock.webp",
         "nombre": "Soporte para Celular Quad Lock",
         "Especificaciones": "Sistema ultra seguro con bloqueo antivibración.",
-        "precio": "$60,00"
+        "precio": 60
     },
     {
         "imagen": "https://i.postimg.cc/Pqknn77x/Soporte_para_Celular_RAM_Mounts.png",
         "nombre": "Soporte para Celular RAM Mounts",
         "Especificaciones": "Muy resistente, usado en motos y vehículos off-road.",
-        "precio": "$50,00"
+        "precio": 50
     },
     {
         "imagen": "https://i.postimg.cc/cJNGGzzs/Soporte_para_Celular_GUB.jpg",
         "nombre": "Soporte para Celular GUB",
         "Especificaciones": "Soporte metálico económico y firme.",
-        "precio": "$20,00"
+        "precio": 20
     },
     {
         "imagen": "https://i.postimg.cc/Jz7xS5rm/Luces_LED_Auxiliares_Baja_Designs.avif",
         "nombre": "Luces LED Auxiliares Baja Designs",
         "Especificaciones": "Iluminación premium para touring y adventure.",
-        "precio": "$70,00"
+        "precio": 70
     },
     {
         "imagen": "https://i.postimg.cc/L84DG39m/Luces_LED_Auxiliares_Auxbeam.webp",
         "nombre": "Luces LED Auxiliares Auxbeam",
         "Especificaciones": "LEDs potentes y accesibles para uso diario.",
-        "precio": "$59,99"
+        "precio": 59.99
     },
     {
         "imagen": "https://i.postimg.cc/wjx2nQq8/Luces_LED_Auxiliares_Nilight.jpg",
         "nombre": "Luces LED Auxiliares Nilight",
         "Especificaciones": "Opción económica para mejorar visibilidad nocturna.",
-        "precio": "$30,00"
+        "precio": 30
     },
     {
         "imagen": "https://i.postimg.cc/htJzJXMZ/escape_motos_Akrapovič.png",
         "nombre": "Akrapovič",
         "Especificaciones": "Escape premium, ligero y con gran sonido.",
-        "precio": "$900,00"
+        "precio": 900
     },
     {
         "imagen": "https://i.postimg.cc/CxZBZRJH/escape_motos_Yoshimura.jpg",
         "nombre": "Yoshimura",
         "Especificaciones": "Rendimiento deportivo japonés con sonido balanceado.",
-        "precio": "$400.00"
+        "precio": 400
     },
     {
         "imagen": "https://i.postimg.cc/dV7k7hnX/escape_motos_Vance_Hines.webp",
         "nombre": "Vance & Hines",
         "Especificaciones": "Sonido profundo y estilo agresivo.",
-        "precio": "$300,00"
+        "precio": 300
     },
     {
         "imagen": "https://i.postimg.cc/vBPbLzZ3/Intercomunicadores_Bluetooth_Cardo.webp",
         "nombre": "Intercomunicadores Bluetooth Cardo",
         "Especificaciones": "Audio JBL, excelente alcance y calidad de voz.",
-        "precio": "$200,00"
+        "precio": 200
     },
     {
         "imagen": "https://i.postimg.cc/mDdBNwgm/Intercomunicadores_Bluetooth_Sena.png",
         "nombre": "Intercomunicadores Bluetooth Sena",
         "Especificaciones": "Muy popular, ideal para grupos grandes.",
-        "precio": "$50,00"
+        "precio": 50
     },
     {
         "imagen": "https://i.postimg.cc/VLHzfLt5/Intercomunicadores_Bluetooth.webp",
         "nombre": "Intercomunicadores Bluetooth Lexin",
         "Especificaciones": "Opción económica con buena funcionalidad.",
-        "precio": "$80,00"
+        "precio": 80
     },
     {
         "imagen": "https://i.postimg.cc/W3DT8ZFQ/Candado_para_Disco_Abus.webp",
         "nombre": "Candado para Disco Abus",
         "Especificaciones": "Alta seguridad antirrobo, acero reforzado.",
-        "precio": "$25.00"
+        "precio": 25
     },
     {
         "imagen": "https://i.postimg.cc/JnyMxXDF/Candado_para_Disco_Xena.webp",
         "nombre": "Candado para Disco Xena",
         "Especificaciones": "Candados con alarma integrada.",
-        "precio": "$60.00<"
+        "precio": 60
     },
     {
         "imagen": "https://i.postimg.cc/nzsp2mjN/Candado_para_Disco_Oxford.jpg",
         "nombre": "Candado para Disco Oxford",
         "Especificaciones": "Buen nivel de protección a precio accesible.",
-        "precio": "$40.00<"
+        "precio": 40
     },
     {
         "imagen": "https://i.postimg.cc/y6FwHnHt/GPS_Localizador_Monimoto.png",
         "nombre": "GPS / Localizador Monimoto",
         "Especificaciones": "Rastreo GPS con app móvil y alerta antirrobo.",
-        "precio": "$100.00"
+        "precio": 100
     },
     {
         "imagen": "https://i.postimg.cc/DfqtT5Tp/GPS_Localizador_Invoxia.webp",
         "nombre": "GPS / Localizador Invoxia",
         "Especificaciones": "GPS compacto con batería de larga duración.",
-        "precio": "$119.99"
+        "precio": 119.99
     },
     {
         "imagen": "https://i.postimg.cc/PfmBjKj7/GPS_Localizador_Traccar.avif",
         "nombre": "GPS / Localizador Traccar",
         "Especificaciones": "Rastreador económico con SIM.",
-        "precio": "$40.99<"
+        "precio": 40.99
     },
     {
         "imagen": "https://i.postimg.cc/660YcPw9/Tiras_Reflectivas_3M.gif",
         "nombre": "Tiras Reflectivas 3M",
         "Especificaciones": "Máxima visibilidad nocturna y gran durabilidad.",
-        "precio": "$14.99"
+        "precio": 14.99
     },
     {
         "imagen": "https://i.postimg.cc/NG4pDnYf/Tiras_Reflectivas_Oxford.png",
         "nombre": "Tiras Reflectivas Oxford",
         "Especificaciones": "Reflectivos adhesivos para casco y moto.",
-        "precio": "$9.99"
+        "precio": 9.99
     },
     {
         "imagen": "https://i.postimg.cc/RCRXdY9v/Tiras_Reflectivas_RST.jpg",
         "nombre": "Tiras Reflectivas RST",
         "Especificaciones": "Kits reflectivos para seguridad urbana.",
-        "precio": "$12.00"
+        "precio": 12
     },
     {
         "imagen": "https://i.postimg.cc/9X6ZGtwX/Go_Pro.png",
         "nombre": "Go Pro",
         "Especificaciones": "La más popular, excelente calidad de video.",
-        "precio": "$300.00"
+        "precio": 300
     },
     {
         "imagen": "https://i.postimg.cc/44DVzbHT/Insta_360.jpg",
         "nombre": "Insta 360",
         "Especificaciones": "Grabación 360° y estabilización avanzada",
-        "precio": "$350.00"
+        "precio": 350
     },
     {
         "imagen": "https://i.postimg.cc/c1pwQMts/Akaso.png",
         "nombre": "Akaso",
         "Especificaciones": "Alternativa económica con buena calidad.",
-        "precio": "$89.99"
+        "precio": 89.99
     }
 
 ]

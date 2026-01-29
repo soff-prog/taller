@@ -8,18 +8,29 @@
 </head>
 <body>
     <!--Barra de navegacion-->
-<nav class="dark:bg-gray-900 text-white  border-b border-neutral-800">
+<nav class="bg-slate-900 text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7" alt="Motos Logo" />
       <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">FullBiker</span>
   </a>
   <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="inline-flex items-center text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">
-        <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-        </svg>Carrito
-      </button>      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+      <a href="/src/pages/carrito.html"
+   class="inline-flex items-center text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none relative">
+
+  <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+  </svg>
+
+  Carrito
+
+  <span id="carrito-contador"
+        class="absolute -top-1 -right-1 bg-slate-100 text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center text-black">
+    0
+  </span>
+</a>
+  
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
     </button>
@@ -45,7 +56,7 @@
   </div>
   </div>
 </nav>
-
+<br>
 <!--Inicio de pagina-->
 <section class="bg-white py-14">
   <div class="max-w-screen-xl mx-auto px-4 text-center">
@@ -62,492 +73,21 @@
   </div>
 </section>
 
-
-<!--Card para accesorios-->
+<!--contenedor de accesorios -->
 <section class="bg-slate-900 py-16">
   <div class="max-w-screen-xl mx-auto px-4">
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-
-      <!--Casco-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/TYW8sGPj/Casco_HJC.webp" alt="Casco integral"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Casco HJC</h3>
-        <p class="text-sm text-gray-600 mt-1">Cascos integrales y modulares con buena ventilación y certificación ECE/DOT.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $150.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/WpZLWTzt/casco-AGV.webp" alt="Casco integral"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Casco AGV</h3>
-        <p class="text-sm text-gray-600 mt-1">Marca italiana, muy usada en competición, diseño aerodinámico y alta seguridad.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $250.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/Ghs0frpF/Casco_Bell.webp" alt="Casco integral"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Casco Bell</h3>
-        <p class="text-sm text-gray-600 mt-1">Marca estadounidense con modelos urbanos, touring y adventure.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $180.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--chaqueta-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/zGBxQF7F/Chaqueta_Alpinestars.webp" alt="Chaqueta protectora"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Alpinestars</h3>
-        <p class="text-sm text-gray-600 mt-1">Chaquetas textiles y de cuero con protecciones CE y excelente ventilación.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $280.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/qvR1Fxws/Chaqueta_REV_IT.webp" alt="Chaqueta protectora"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Chaqueta REVIT!</h3>
-        <p class="text-sm text-gray-600 mt-1">Chaquetas técnicas para touring y clima variable, muy resistentes.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $300.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/4xdW0QPz/Chaqueta_Dainese.webp" alt="Chaqueta protectora"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Dainese</h3>
-        <p class="text-sm text-gray-600 mt-1">Diseño premium, protección avanzada y materiales de alta calidad.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $320.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--guantes-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/dVyyD7VY/Guantes_Alpinestars.webp" alt="Guantes"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Guantes Alpinestars</h3>
-        <p class="text-sm text-gray-600 mt-1">Guantes con nudillos rígidos, refuerzos y buena ergonomía</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $70.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/kgbbDVgr/Guantes_Five_Gloves.png" alt="Guantes"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Guantes Five Gloves</h3>
-        <p class="text-sm text-gray-600 mt-1">Especialistas en guantes con gran protección y sensibilidad.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $80.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/qv33gtvd/Guantes_Dainese.webp" alt="Guantes"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Guantes Dainese</h3>
-        <p class="text-sm text-gray-600 mt-1">Guantes deportivos y touring con protecciones CE.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $90.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--botas-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/q7QM70nW/Botas_Touring_TCX.webp" alt="Botas"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Botas Touring TCX</h3>
-        <p class="text-sm text-gray-600 mt-1">Botas impermeables, cómodas para viajes largos.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $180.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/FKGsKmcn/Botas_Touring_Forma.webp" alt="Botas"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Botas Touring Forma</h3>
-        <p class="text-sm text-gray-600 mt-1">Excelente relación calidad-precio, muy usadas en touring.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $180.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/jjvdjKNm/Botas_Touring_Alpinestars.webp" alt="Botas"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Botas Touring Alpinestars</h3>
-        <p class="text-sm text-gray-600 mt-1">Botas seguras, resistentes y con protecciones certificadas.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $200.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--pantalones-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/g0wmGRzn/Pantalón_REV_IT.webp" alt="Pantalón protector"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Pantalón REV’IT!</h3>
-        <p class="text-sm text-gray-600 mt-1">Pantalones textiles y touring con protecciones CE.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $250.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/g0wmGRzx/Pantalón_Alpinestars.avif" alt="Pantalón protector"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Pantalón Alpinestars</h3>
-        <p class="text-sm text-gray-600 mt-1">Modelos urbanos y adventure con refuerzos en rodillas y cadera.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $220.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/hGJcKxDv/Pantalón_Dainese.webp" alt="Pantalón protector"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Pantalón Dainese</h3>
-        <p class="text-sm text-gray-600 mt-1">Pantalones premium con alto nivel de confort y seguridad.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $260.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--chaqueta airbag-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/qBDw334Q/chaqueta_dainese_(d_air).webp" alt="Chaqueta airbag"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Dainese (D-Air)</h3>
-        <p class="text-sm text-gray-600 mt-1">Sistema electrónico de airbag integrado para máxima protección.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $800.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/Dfp6XXnx/Chaqueta_Alpinestars_(Tech_Air).webp" alt="Chaqueta airbag"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Alpinestars (Tech-Air)</h3>
-        <p class="text-sm text-gray-600 mt-1">Airbag inteligente, muy usado en carretera y pista.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $700.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/SQ1dMMk7/Chaqueta_Helite.jpg" alt="Chaqueta airbag"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Chaqueta Helite</h3>
-        <p class="text-sm text-gray-600 mt-1">Chaquetas airbag mecánicas, activación por cable.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $600.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--baul-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/Qxs7VNWx/Baúl_Trasero_Givi.webp" alt="Baúl"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Baúl Trasero Givi</h3>
-        <p class="text-sm text-gray-600 mt-1">Baúles resistentes, con sistema de cierre seguro.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $120.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/L6RPh4Z8/Baúl_Trasero_Shad.png" alt="Baúl"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Baúl Trasero Shad</h3>
-        <p class="text-sm text-gray-600 mt-1">Diseño moderno y buena capacidad de carga.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $110.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/YqkFj2m9/Baúl_Trasero_Kappa.png" alt="Baúl"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Baúl Trasero Kappa</h3>
-        <p class="text-sm text-gray-600 mt-1">Excelente alternativa económica con buena calidad.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $100.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--soporte del telefono-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/q7dHHFFv/Soporte_para_Celular_Quad_Lock.webp" alt="Soporte celular"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Soporte para Celular Quad Lock</h3>
-        <p class="text-sm text-gray-600 mt-1">Sistema ultra seguro con bloqueo antivibración.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $60.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/Pqknn77x/Soporte_para_Celular_RAM_Mounts.png" alt="Soporte celular"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Soporte para Celular RAM Mounts</h3>
-        <p class="text-sm text-gray-600 mt-1">Muy resistente, usado en motos y vehículos off-road.</p>
-        <p class="text-sm text-gray-500 mt-2">Precia $50.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/cJNGGzzs/Soporte_para_Celular_GUB.jpg" alt="Soporte celular"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Soporte para Celular GUB</h3>
-        <p class="text-sm text-gray-600 mt-1">Soporte metálico económico y firme.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $20.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-
-      <!--luces led-->
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/Jz7xS5rm/Luces_LED_Auxiliares_Baja_Designs.avif" alt="Luces LED"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Luces LED Auxiliares Baja Designs</h3>
-        <p class="text-sm text-gray-600 mt-1">Iluminación premium para touring y adventure.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $70.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/L84DG39m/Luces_LED_Auxiliares_Auxbeam.webp" alt="Luces LED"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Luces LED Auxiliares Auxbeam</h3>
-        <p class="text-sm text-gray-600 mt-1">LEDs potentes y accesibles para uso diario.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $59.99</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-        <img src="https://i.postimg.cc/wjx2nQq8/Luces_LED_Auxiliares_Nilight.jpg" alt="Luces LED"
-             class="mx-auto mb-6 rounded-xl h-44 object-contain">
-        <h3 class="text-xl font-semibold text-gray-900">Luces LED Auxiliares Nilight</h3>
-        <p class="text-sm text-gray-600 mt-1">Opción económica para mejorar visibilidad nocturna.</p>
-        <p class="text-sm text-gray-500 mt-2">Precio: $30.00</p>
-        <div class="mt-6">
-          <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-        </div>
-      </div>
-      <!--escape de moto-->
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/htJzJXMZ/escape_motos_Akrapovič.png" alt="Escape deportivo"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Akrapovič</h3>
-  <p class="text-sm text-gray-600 mt-1">Escape premium, ligero y con gran sonido.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $900.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/CxZBZRJH/escape_motos_Yoshimura.jpg" alt="Escape deportivo"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Yoshimura</h3>
-  <p class="text-sm text-gray-600 mt-1">Rendimiento deportivo japonés con sonido balanceado.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $400.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/dV7k7hnX/escape_motos_Vance_Hines.webp" alt="Escape deportivo"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Vance & Hines</h3>
-  <p class="text-sm text-gray-600 mt-1">Sonido profundo y estilo agresivo.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $300.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-
-<!-- Intercomunicadores Bluetooth -->
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/vBPbLzZ3/Intercomunicadores_Bluetooth_Cardo.webp" alt="Intercomunicadores Bluetooth"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Intercomunicadores Bluetooth Cardo</h3>
-  <p class="text-sm text-gray-600 mt-1">Audio JBL, excelente alcance y calidad de voz.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio $200.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/mDdBNwgm/Intercomunicadores_Bluetooth_Sena.png" alt="Intercomunicadores Bluetooth"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Intercomunicadores Bluetooth Sena</h3>
-  <p class="text-sm text-gray-600 mt-1">Muy popular, ideal para grupos grandes..</p>
-  <p class="text-sm text-gray-500 mt-2">Precio $50.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/VLHzfLt5/Intercomunicadores_Bluetooth.webp" alt="Intercomunicadores Bluetooth"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Intercomunicadores Bluetooth Lexin</h3>
-  <p class="text-sm text-gray-600 mt-1">Opción económica con buena funcionalidad.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio $80.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-
-<!-- Antirrobo / Candado para disco -->
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/W3DT8ZFQ/Candado_para_Disco_Abus.webp" alt="Antirrobo / Candado para disco"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Candado para Disco Abus</h3>
-  <p class="text-sm text-gray-600 mt-1">Alta seguridad antirrobo, acero reforzado.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $25.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/JnyMxXDF/Candado_para_Disco_Xena.webp" alt="Antirrobo / Candado para disco"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Candado para Disco Xena</h3>
-  <p class="text-sm text-gray-600 mt-1">Candados con alarma integrada.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $60.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/nzsp2mjN/Candado_para_Disco_Oxford.jpg" alt="Antirrobo / Candado para disco"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Candado para Disco Oxford</h3>
-  <p class="text-sm text-gray-600 mt-1">Buen nivel de protección a precio accesible.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $40.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-
-<!-- GPS / Localizador -->
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/y6FwHnHt/GPS_Localizador_Monimoto.png" alt="GPS / Localizador"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">GPS / Localizador Monimoto</h3>
-  <p class="text-sm text-gray-600 mt-1">Rastreo GPS con app móvil y alerta antirrobo.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $100.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/DfqtT5Tp/GPS_Localizador_Invoxia.webp" alt="GPS / Localizador"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">GPS / Localizador Invoxia</h3>
-  <p class="text-sm text-gray-600 mt-1">GPS compacto con batería de larga duración.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $119.99</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/PfmBjKj7/GPS_Localizador_Traccar.avif" alt="GPS / Localizador"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">GPS / Localizador Traccar</h3>
-  <p class="text-sm text-gray-600 mt-1">Rastreador económico con SIM.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $40.99</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-
-<!-- Reflectores para moto -->
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/660YcPw9/Tiras_Reflectivas_3M.gif" alt="Reflectores para moto"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Tiras Reflectivas 3M</h3>
-  <p class="text-sm text-gray-600 mt-1">Máxima visibilidad nocturna y gran durabilidad.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio $14.99</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/NG4pDnYf/Tiras_Reflectivas_Oxford.png" alt="Reflectores para moto"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Tiras Reflectivas Oxford</h3>
-  <p class="text-sm text-gray-600 mt-1">Reflectivos adhesivos para casco y moto.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $9.99</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/RCRXdY9v/Tiras_Reflectivas_RST.jpg" alt="Reflectores para moto"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Tiras Reflectivas RST</h3>
-  <p class="text-sm text-gray-600 mt-1">Kits reflectivos para seguridad urbana</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $12.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-
-<!-- Mini Camatas -->
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/9X6ZGtwX/Go_Pro.png" alt="Nini Camaras"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Go Pro</h3>
-  <p class="text-sm text-gray-600 mt-1">La más popular, excelente calidad de video.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $300.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/44DVzbHT/Insta_360.jpg" alt="Nini Camaras"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Insta 360</h3>
-  <p class="text-sm text-gray-600 mt-1">Grabación 360° y estabilización avanzada.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $350.00</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
-<div class="text-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-  <img src="https://i.postimg.cc/c1pwQMts/Akaso.png" alt="Nini Camaras"
-       class="mx-auto mb-6 rounded-xl h-44 object-contain">
-  <h3 class="text-xl font-semibold text-gray-900">Akaso</h3>
-  <p class="text-sm text-gray-600 mt-1">Alternativa económica con buena calidad.</p>
-  <p class="text-sm text-gray-500 mt-2">Precio: $89.99</p>
-  <div class="mt-6">
-    <a href="#" class="inline-flex rounded-full bg-red-800 px-5 py-2 text-sm font-medium text-white hover:bg-red-900 transition">Comprar</a>
-  </div>
-</div>
+      <h1 class="text-3xl font-black text-white mb-8 uppercase">
+        Explorar <span class="text-red-600">Accesorios</span>
+    </h1>
+    <div
+      id="contenedor-accesorios"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"
+    >
+      <p class="text-red-950 text-center col-span-full">
+        Cargando accesorios...
+      </p>
     </div>
+
   </div>
 </section>
 

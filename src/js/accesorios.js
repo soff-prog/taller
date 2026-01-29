@@ -3,7 +3,7 @@ import 'flowbite';
 
 const contenedor = document.getElementById("contenedor-accesorios");
 
-// ===== CARGAR ACCESORIOS =====
+//para cargar los accesorios
 const cargarAccesorios = async () => {
   try {
     const respuesta = await fetch("/data/accesorios.json");
@@ -41,10 +41,9 @@ const cargarAccesorios = async () => {
 
 cargarAccesorios();
 
-// ===== CARRITO GENERAL (IGUAL QUE LIBROS) =====
 let carrito = JSON.parse(localStorage.getItem("carrito-general")) || [];
 
-// ===== CONTADOR (REUTILIZADO) =====
+//contador
 const actualizarContador = () => {
   const contador = document.getElementById("carrito-contador");
   const carritoActual = JSON.parse(localStorage.getItem("carrito-general")) || [];
@@ -54,7 +53,7 @@ const actualizarContador = () => {
   }
 };
 
-// ===== AGREGAR AL CARRITO =====
+//para que se agrege al carrito
 contenedor.addEventListener("click", (e) => {
   const boton = e.target.closest(".btn-agregar");
   if (!boton) return;
@@ -75,6 +74,4 @@ contenedor.addEventListener("click", (e) => {
   actualizarContador();
 });
 
-
-// ===== ACTUALIZAR CONTADOR AL CARGAR =====
 actualizarContador();

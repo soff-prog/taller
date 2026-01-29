@@ -5,16 +5,15 @@ const lista = document.getElementById("lista-carrito");
 const totalPago = document.getElementById("total-compra");
 const botonLimpiar = document.getElementById("btn-limpiar");
 
-// ===== TRAER CARRITO GENERAL =====
+//carrito general
 let carrito = JSON.parse(localStorage.getItem("carrito-general")) || [];
 
-// ===== CONTADOR (IGUAL QUE LIBROS) =====
+//contador
 const actualizarContador = () => {
   const contador = document.getElementById("carrito-contador");
   if (contador) contador.innerText = carrito.length;
 };
 
-// ===== MOSTRAR CARRITO =====
 const mostrarCarrito = () => {
   lista.innerHTML = "";
   let total = 0;
@@ -39,7 +38,7 @@ const mostrarCarrito = () => {
   actualizarContador();
 };
 
-// ===== ELIMINAR PRODUCTO =====
+//para eliminar producto
 lista.addEventListener("click", (e) => {
   const boton = e.target.closest(".btn-eliminar");
   if (!boton) return;
@@ -51,12 +50,11 @@ lista.addEventListener("click", (e) => {
   mostrarCarrito();
 });
 
-// ===== LIMPIAR CARRITO =====
+//boton limpiar carrito
 botonLimpiar.addEventListener("click", () => {
   carrito = [];
   localStorage.setItem("carrito-general", JSON.stringify(carrito));
   mostrarCarrito();
 });
 
-// ===== INICIAR =====
 mostrarCarrito();

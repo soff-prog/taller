@@ -1,6 +1,19 @@
 import '../css/style.css'; 
 import 'flowbite';  
 
+let carrito = JSON.parse(localStorage.getItem("carrito-general")) || [];
+
+//contador
+const actualizarContador = () => {
+  const contador = document.getElementById("carrito-contador");
+  const carritoActual = JSON.parse(localStorage.getItem("carrito-general")) || [];
+
+  if (contador) {
+    contador.innerText = carritoActual.length;
+  }
+};
+actualizarContador();
+
 // seleccionamos las tarjetas o card
 const tarjetasServicios = document.querySelectorAll('section.bg-white .block.p-6');
 
@@ -28,3 +41,4 @@ tarjetasServicios.forEach(tarjeta => {
         });
   }
 });
+

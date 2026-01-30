@@ -24,7 +24,7 @@
         "precio": 280
     },
     {
-        "imagen": "https://i.postimg.cc/qvR1Fxws/Chaqueta_REV_IT.webp",
+        "imagen": "https://i.postimg.cc/LsNQ21DK/Chaqueta_REVIT.png",
         "nombre": "Chaqueta REVIT!",
         "Especificaciones": "Chaquetas técnicas para touring y clima variable, muy resistentes.",
         "precio": 300
@@ -42,7 +42,7 @@
         "precio": 70
     },
     {
-        "imagen": "https://i.postimg.cc/kgbbDVgr/Guantes_Five_Gloves.png",
+        "imagen": "https://i.postimg.cc/hGpZcdrk/Guantes_Five_Gloves.png",
         "nombre": "Guantes Five Gloves",
         "Especificaciones": "Especialistas en guantes con gran protección y sensibilidad.",
         "precio": 8
@@ -72,7 +72,7 @@
         "precio": 200
     },
     {
-        "imagen": "https://i.postimg.cc/g0wmGRzn/Pantalón_REV_IT.webp",
+        "imagen": "https://i.postimg.cc/8CtXN6H3/Pantalón_REV_IT.png",
         "nombre": "Pantalón REV’IT!",
         "Especificaciones": "Pantalones textiles y touring con protecciones CE.",
         "precio": 250
@@ -84,7 +84,7 @@
         "precio": 220
     },
     {
-        "imagen": "https://i.postimg.cc/hGJcKxDv/Pantalón_Dainese.webp",
+        "imagen": "https://i.postimg.cc/5tnKbC3R/Pantalón_Dainese.webp",
         "nombre": "Pantalón Dainese",
         "Especificaciones": "Pantalones premium con alto nivel de confort y seguridad.",
         "precio": 260
@@ -102,7 +102,7 @@
         "precio": 700
     },
     {
-        "imagen": "https://i.postimg.cc/SQ1dMMk7/Chaqueta_Helite.jpg",
+        "imagen": "https://i.postimg.cc/HLBvdy2N/Chaqueta_Helite.png",
         "nombre": "Chaqueta Helite",
         "Especificaciones": "Chaquetas airbag mecánicas, activación por cable.",
         "precio": 600
@@ -114,13 +114,13 @@
         "precio": 120
     },
     {
-        "imagen": "https://i.postimg.cc/L6RPh4Z8/Baúl_Trasero_Shad.png",
+        "imagen": "https://i.postimg.cc/QM0YhTmr/Baúl_Trasero_Shad.png",
         "nombre": "Baúl Trasero Shad",
         "Especificaciones": "Diseño moderno y buena capacidad de carga.",
         "precio": 110
     },
     {
-        "imagen": "https://i.postimg.cc/YqkFj2m9/Baúl_Trasero_Kappa.png",
+        "imagen": "https://i.postimg.cc/7LxtFV3y/Baúl_Trasero_Kappa.webp",
         "nombre": "Baúl Trasero Kappa",
         "Especificaciones": "Excelente alternativa económica con buena calidad.",
         "precio": 100
@@ -138,13 +138,13 @@
         "precio": 50
     },
     {
-        "imagen": "https://i.postimg.cc/cJNGGzzs/Soporte_para_Celular_GUB.jpg",
+        "imagen": "https://i.postimg.cc/fbwqGKc4/Soporte_para_Celular_GUB.webp",
         "nombre": "Soporte para Celular GUB",
         "Especificaciones": "Soporte metálico económico y firme.",
         "precio": 20
     },
     {
-        "imagen": "https://i.postimg.cc/Jz7xS5rm/Luces_LED_Auxiliares_Baja_Designs.avif",
+        "imagen": "https://i.postimg.cc/pVZf7H0b/Luces_LED_Auxiliares_Baja_Designs.webp",
         "nombre": "Luces LED Auxiliares Baja Designs",
         "Especificaciones": "Iluminación premium para touring y adventure.",
         "precio": 70
@@ -156,7 +156,7 @@
         "precio": 59.99
     },
     {
-        "imagen": "https://i.postimg.cc/wjx2nQq8/Luces_LED_Auxiliares_Nilight.jpg",
+        "imagen": "https://i.postimg.cc/fWKcFNH4/Luces_LED_Auxiliares_Nilight.webp",
         "nombre": "Luces LED Auxiliares Nilight",
         "Especificaciones": "Opción económica para mejorar visibilidad nocturna.",
         "precio": 30
@@ -168,7 +168,7 @@
         "precio": 900
     },
     {
-        "imagen": "https://i.postimg.cc/CxZBZRJH/escape_motos_Yoshimura.jpg",
+        "imagen": "https://i.postimg.cc/mZwYqsdG/Yoshimura.png",
         "nombre": "Yoshimura",
         "Especificaciones": "Rendimiento deportivo japonés con sonido balanceado.",
         "precio": 400
@@ -198,19 +198,19 @@
         "precio": 80
     },
     {
-        "imagen": "https://i.postimg.cc/W3DT8ZFQ/Candado_para_Disco_Abus.webp",
+        "imagen": "https://i.postimg.cc/VsRqT8Kx/Candado_para_Disco_Abus.png",
         "nombre": "Candado para Disco Abus",
         "Especificaciones": "Alta seguridad antirrobo, acero reforzado.",
         "precio": 25
     },
     {
-        "imagen": "https://i.postimg.cc/JnyMxXDF/Candado_para_Disco_Xena.webp",
+        "imagen": "https://i.postimg.cc/CMNGtgc9/Candado_para_Disco_Xena.webp",
         "nombre": "Candado para Disco Xena",
         "Especificaciones": "Candados con alarma integrada.",
         "precio": 60
     },
     {
-        "imagen": "https://i.postimg.cc/nzsp2mjN/Candado_para_Disco_Oxford.jpg",
+        "imagen": "https://i.postimg.cc/sfcY8rT8/Candado_para_Disco_Oxford.png",
         "nombre": "Candado para Disco Oxford",
         "Especificaciones": "Buen nivel de protección a precio accesible.",
         "precio": 40
@@ -228,7 +228,7 @@
         "precio": 119.99
     },
     {
-        "imagen": "https://i.postimg.cc/PfmBjKj7/GPS_Localizador_Traccar.avif",
+        "imagen": "https://i.postimg.cc/05fY3sV4/GPS_Localizador_Traccar.png",
         "nombre": "GPS / Localizador Traccar",
         "Especificaciones": "Rastreador económico con SIM.",
         "precio": 40.99
@@ -246,7 +246,7 @@
         "precio": 9.99
     },
     {
-        "imagen": "https://i.postimg.cc/RCRXdY9v/Tiras_Reflectivas_RST.jpg",
+        "imagen": "https://i.postimg.cc/ryJ1bkfY/Tiras_Reflectivas_RST.webp",
         "nombre": "Tiras Reflectivas RST",
         "Especificaciones": "Kits reflectivos para seguridad urbana.",
         "precio": 12
@@ -258,7 +258,7 @@
         "precio": 300
     },
     {
-        "imagen": "https://i.postimg.cc/44DVzbHT/Insta_360.jpg",
+        "imagen": "https://i.postimg.cc/y6Pm5HLt/Insta_360.webp",
         "nombre": "Insta 360",
         "Especificaciones": "Grabación 360° y estabilización avanzada",
         "precio": 350

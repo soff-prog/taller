@@ -1,61 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-     <!--Barra de navegacion-->
+<body class="bg-slate-900 text-white">
+<!--Barra de navegacion-->
 <nav class="bg-slate-900 text-white fixed w-full z-20 top-0 start-0 border-b border-neutral-800">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 rtl:space-x-reverse">
+
+    <a href="https://www.crazygames.com/es/game/trial-mania" target="_blank" rel="noopener noreferrer"
+       class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://i.postimg.cc/Y90rn8Xq/moto.png" class="h-7" alt="Motos Logo" />
-      <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">FullBiker</span>
-  </a>
-  <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="inline-flex items-center text-white bg-red-800 hover:bg-red-900 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none relative">
-        <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-        </svg>Carrito
-
+      <span class="self-center text-xl font-semibold whitespace-nowrap">FullBiker</span>
+    </a>
+    <div class="inline-flex items-center md:order-2 space-x-3 rtl:space-x-reverse">
+      <a href="/src/pages/carrito.html" class="relative bg-red-800 hover:bg-red-900 p-2 rounded-full transition">
+        <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+        </svg>
         <span id="carrito-contador" class="absolute -top-1 -right-1 bg-slate-100 text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center text-black">
-        0
+          0
         </span>
-
-      </button>      
-      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+      </a>
+      <button data-collapse-toggle="navbar-cta" type="button"
+        class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm rounded-base md:hidden hover:bg-neutral-secondary-soft focus:outline-none focus:ring-2 focus:ring-neutral-tertiary">
         <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
-    </button>
-  </div>
-  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
-      <li>
-        <a href="/motos/index.html" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
-      </li>
-      <li>
-        <a href="/src/pages/sobreNosotros.html" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Sobre nosotros</a>
-      </li>
-      <li>
-        <a href="/src/pages/motos.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Motos</a>
-      </li>
-      <li>
-        <a href="/src/pages/accesorios.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Accesorios</a>
-      </li>
-      <li>
-        <a href="/src/pages/servicios.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Servicios</a>
-      </li>
-      <li>
-        <a href="/src/pages/contacto.html" class="block py-2 px-3 text-white hover:bg-red-900 md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contacto</a>
-      </li>
-    </ul>
-  </div>
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+        </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-base
+                 md:flex-row md:space-x-8 md:mt-0 md:bg-transparent">
+        <li>
+          <a href="/motos/index.html" class="block py-2 px-3 md:p-0 text-white md:text-red-700 font-semibold">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="/src/pages/sobreNosotros.html" class="block py-2 px-3 md:p-0 hover:text-red-700transition">
+            Sobre nosotros
+          </a>
+        </li>
+        <li>
+          <a href="/src/pages/motos.html" class="block py-2 px-3 md:p-0 hover:text-red-700 transition">
+            Motos
+          </a>
+        </li>
+        <li>
+          <a href="/src/pages/accesorios.html" class="block py-2 px-3 md:p-0 hover:text-red-700 transition">
+            Accesorios
+          </a>
+        </li>
+        <li>
+          <a href="/src/pages/servicios.html" class="block py-2 px-3 md:p-0 hover:text-red-700 transition">
+            Servicios
+          </a>
+        </li>
+        <li>
+          <a href="/src/pages/contacto.html" class="block py-2 px-3 md:p-0 hover:text-red-700 transition">
+            Contacto
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
-<br><br>
 
-<!--JS-->
+
+<section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-gray-900 to-black px-4 pt-24">
+  <div class="grid md:grid-cols-2 gap-10 max-w-5xl w-full">
+
+    <div class="hidden md:flex flex-col justify-center text-white p-8">
+      <h3 class="text-4xl font-bold mb-6">Hablemos</h3>
+      <p class="text-gray-300 mb-8 leading-relaxed">
+        ¿Tienes dudas sobre nuestros modelos, servicios o accesorios?
+        Déjanos tus datos y nos pondremos en contacto contigo.
+      </p>
+
+      <div class="space-y-4 text-sm">
+        <p> Quito, Ecuador</p>
+        <p> +593 99 999 9999</p>
+        <p> contacto@fullbiker.com</p>
+      </div>
+    </div>
+
+    <form id="formulario" class="w-full bg-white text-black rounded-2xl shadow-2xl p-8 border border-red-500">
+
+      <h2 class="text-3xl font-bold mb-8 text-center uppercase">
+        Registro <span class="text-red-600">FullBiker</span>
+      </h2>
+
+      <div class="mb-5">
+        <label class="block text-sm font-semibold mb-2">Nombre completo</label>
+        <input type="text" id="username" class="w-full rounded-lg border p-3">
+        <span id="error-username" class="text-red-500 text-[11px] hidden italic">
+          Debe tener entre 3 y 16 letras.
+        </span>
+      </div>
+
+      <div class="mb-5">
+        <label class="block text-sm font-semibold mb-2">Email</label>
+        <input type="email" id="email" class="w-full rounded-lg border p-3">
+        <span id="error-email" class="text-red-500 text-[11px] hidden italic">
+          Email no válido.
+        </span>
+      </div>
+
+      <div class="mb-5">
+        <label class="block text-sm font-semibold mb-2">Contraseña</label>
+        <input type="password" id="password" class="w-full rounded-lg border p-3">
+        <span id="error-password" class="text-red-500 text-[11px] hidden italic">
+          Mínimo 8 caracteres, 1 letra y 1 número.
+        </span>
+      </div>
+
+      <div class="mb-5">
+        <label class="block text-sm font-semibold mb-2">Confirmar contraseña</label>
+        <input type="password" id="confirmPassword" class="w-full rounded-lg border p-3">
+        <span id="error-confirmPassword" class="text-red-500 text-[11px] hidden italic">
+          Las contraseñas no coinciden.
+        </span>
+      </div>
+
+      <div class="mb-6">
+        <label class="block text-sm font-semibold mb-2">Comentario</label>
+        <textarea id="message" rows="4" class="w-full rounded-lg border p-3"></textarea>
+      </div>
+
+      <div class="mb-6 flex items-start gap-2 text-sm">
+        <input type="checkbox" id="terminos" class="accent-red-500 mt-1">
+        <label for="terminos">
+          Acepto los términos y condiciones
+        </label>
+      </div>
+
+      <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg uppercase tracking-widest">
+        Finalizar registro
+      </button>
+
+      <p class="text-xs text-gray-400 text-center mt-6">
+        © 2026 FullBiker · Todos los derechos reservados
+      </p>
+
+    </form>
+  </div>
+</section>
+
 <script type="module" src="../js/contacto.js"></script>
 </body>
 </html>
